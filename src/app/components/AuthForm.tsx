@@ -15,7 +15,6 @@ export default function AuthForm() {
         <SignupForm />
         <p className='text-lg w-full text-center mt-4' >Already have an account? <button className='hover:scale-110 cursor-pointer hover:underline' onClick={() => setShowLogin(true)} >Login</button></p>
         </div>}
-    
     </div>
   )
 }
